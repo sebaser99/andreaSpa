@@ -1,0 +1,54 @@
+@use "../../base/variables" as v;
+@use "../../base/mixins" as m;
+
+.swiper {
+    max-width: 120rem;
+    width: 80%;
+    height: 100%;   
+ 
+
+    &-slide {
+        text-align: center;
+        font-size: 18px;
+        background: v.$grisClaro;
+        background-position: center;
+        background-size: cover;
+    
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    &-image {
+        display: block;
+        width: 100%;
+        height: 100%;
+        
+    }
+    &-pagination-bullet{
+        background-color: v.$blanco;
+        opacity: unset;
+        &-active {
+            background-color: darken(v.$primario, 20%);
+        }
+    }
+    &-button-next:after,
+    &-button-prev:after {
+        color: v.$blanco;
+    }
+   
+ }
+
+
+  
+
+ 
