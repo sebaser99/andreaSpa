@@ -1,12 +1,12 @@
 {
-  "name": "cafeteria",
+  "name": "carolina-spa",
   "version": "1.0.0",
   "description": "Delivery App, BEM, SASS, Gulp, CSS Grid",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Juan De la torre @codigoconjuan",
+  "author": "sebastian rodriguez sebaser99@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.3.1",
